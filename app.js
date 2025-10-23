@@ -8,7 +8,14 @@ try {
     app.get("/usuarios", (req, res) => {
 
         const data = fs.readFileSync("./usuarios.json", "utf-8"); // LER ARQUIVO
-        const usuarios = JSON.parse(data); // CONVERTER JSON PARA OBJETO JAVASCRIPT
+        let usuarios = JSON.parse(data); // CONVERTER JSON PARA OBJETO JAVASCRIPT
+
+        const {nomeUsuario} = req.query;
+
+        if(nomeUsuario){
+            usuarios = usuarios.filter(usuario => usuario.nome.toLowerCase()
+            .includes(nomeUsuario.toLowerCase()));
+        }
 
         res.status(200).json(usuarios);
 
