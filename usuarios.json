@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "nome": "Guilherme Zini Rosa",
+        "email": "guilhermerosazini@gmail.com"
+    },
+    {
+        "id": 2,
+        "nome": "Raíssa de Siqueira Dainese",
+        "email": "daineseraissa@gmail.com"
+    },
+    {
+        "id": 3,
+        "nome": "Diogo Bassa",
+        "email": "diogobassa123@gmail.com"
+    },
+    {
+        "id": 4,
+        "nome": "Felipe Silva",
+        "email": "silvafelipefff@gmail.com"
+    },
+    {
+        "id": 5,
+        "nome": "Gustavo Guanabara",
+        "email": "guanabaragustavo@gmail.com"
+    }
+]
