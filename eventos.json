@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "nome": "Aniversário - Guilherme",
+        "date": "2003-03-26"
+    },
+    {
+        "id": 2,
+        "nome": "Ano Novo 2026",
+        "date": "2026-01-01"
+    },
+    {
+        "id": 3,
+        "nome": "Festa",
+        "date": "2025-10-25"
+    },
+    {
+        "id": 4,
+        "nome": "Festa dos Amigos",
+        "date": "2025-11-10"
+    },
+    {
+        "id": 5,
+        "nome": "Inauguração Loja",
+        "date": "2025-05-15"
+    }
+]
